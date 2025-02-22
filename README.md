@@ -4,7 +4,9 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 
 [installation](https://nuxt.com/docs/getting-started/installation)  
 [pinia](https://pinia.vuejs.org/zh/getting-started.html)  `npm install pinia @pinia/nuxt`  
-[Nuxt UI](https://ui.nuxt.com/): A UI Library for Modern Web Apps
+[Nuxt UI](https://ui.nuxt.com/): A UI Library for Modern Web Apps  
+[container](https://ui.nuxt.com/components/container)    
+[card](https://ui.nuxt.com/components/card)  
 
 ## Setup
 
