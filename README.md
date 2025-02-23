@@ -7,6 +7,7 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 [Nuxt UI](https://ui.nuxt.com/): A UI Library for Modern Web Apps  
 [container](https://ui.nuxt.com/components/container)    
 [card](https://ui.nuxt.com/components/card)  
+[input](https://ui.nuxt.com/components/input)  
 
 ## Setup
 

@@ -2,6 +2,13 @@
 import { useBoardStore } from "../stores/boardStore";
 
 const boardStore = useBoardStore();
+
+const newColumnName = ref('')
+
+function addColumn() {
+  boardStore.addColumn(newColumnName.value)
+  newColumnName.value = ''
+}
 </script>
 
 <template>
@@ -21,6 +28,15 @@ const boardStore = useBoardStore();
             </UCard>
           </li>
         </ul>
+      </UContainer>
+      <UContainer class="column">
+        <UInput
+          v-model="newColumnName"
+          type="text"
+          placeholder="Create new column"
+          icon="i-heroicons-plus-circle-solid"
+          @keyup.enter="addColumn"
+        />
       </UContainer>
     </main>
   </div>
