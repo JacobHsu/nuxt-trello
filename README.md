@@ -9,6 +9,11 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 [card](https://ui.nuxt.com/components/card)  
 [input](https://ui.nuxt.com/components/input)  
 
+### Vueuse
+
+[guide](https://vueuse.org/guide/) `npm i -D @vueuse/nuxt @vueuse/core`  
+[useStorage](https://vueuse.org/core/useStorage/) Application/Local storage/board
+
 ## Setup
 
 Make sure to install dependencies:
