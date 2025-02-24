@@ -1,8 +1,8 @@
-import { defineStore } from 'pinia'
+import { defineStore } from "pinia";
 import { useStorage } from "@vueuse/core";
-import boardData from '~/data/board.json'
+import boardData from "~/data/board.json";
 
-export const useBoardStore = defineStore('boardStore', () => {
+export const useBoardStore = defineStore("boardStore", () => {
   const board = useStorage("board", boardData);
 
   function addColumn(columnName) {
@@ -12,8 +12,13 @@ export const useBoardStore = defineStore('boardStore', () => {
     });
   }
 
+  function deleteColumn(columnIndex) {
+    board.value.columns.splice(columnIndex, 1);
+  }
+
   return {
     board,
     addColumn,
+    deleteColumn,
   };
-})
+});
